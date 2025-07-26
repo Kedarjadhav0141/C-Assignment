@@ -20,13 +20,13 @@ int main(){
         break;
 
         case 2 : {
-           float c_circle = 2*(pi*r);
+           float c_circle = 2*pi*r;
            printf("Circumference of circle for radius %.2f is : %.2f\n",r, c_circle);
         }
         break;
 
         case 3 : {
-            float v_sphere =(4/3)*(pi*r*r*r);
+            float v_sphere =(4.0/3.0)*pi*r*r*r;
             printf("Volume of sphere for radius %.2f is : %.2f\n",r, v_sphere);
         }
         break;
