@@ -1,0 +1,11 @@
+/*1. Write a program to print hello 5 times */
+#include<stdio.h>
+int main(){
+    int i=1;
+
+    while(i<=5){
+        printf("hello\n");
+        i++;
+    }
+    return 0;
+}
